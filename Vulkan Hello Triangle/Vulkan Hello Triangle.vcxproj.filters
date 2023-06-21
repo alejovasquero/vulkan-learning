@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\extensions">
+      <UniqueIdentifier>{68098452-7f60-4ad9-9ba6-3b04945301cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\validation_layers">
+      <UniqueIdentifier>{821612d2-d1eb-4be9-a411-3b17dbea7564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\devices">
+      <UniqueIdentifier>{b96b21c8-7026-41e9-9be4-5c022ba0ee52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\vk_queue">
+      <UniqueIdentifier>{cc820275-316c-4f64-91b3-25aa38bb6c7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="extension_handler.cpp">
+      <Filter>Archivos de recursos\extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="layers_validation.cpp">
+      <Filter>Archivos de recursos\validation_layers</Filter>
+    </ClCompile>
+    <ClCompile Include="custom_layers.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="vk_devices.cpp">
+      <Filter>Archivos de recursos\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="vk_queue.cpp">
+      <Filter>Archivos de recursos\vk_queue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="layers_validation.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="extension_handler.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_layers.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="vk_devices.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="vk_queue.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
